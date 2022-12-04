@@ -1,0 +1,71 @@
+{
+  "userRequirements":{
+    "minAge": 18,
+    "maxNameLength": 20,
+    "maxSurnameLength": 20
+  },
+  "users":{
+    "platform": {
+      "createdAt":"4.12.22.14.20",
+      "lastActive":"4.12.22.14.41",
+      "maxDaily":0,
+      "maxEditPerDay":1,
+      "editCount":1,
+      "edits": [[1,1]],
+      "organizations": [1]
+    },
+    "credentials":{
+      "id": 1,
+      "nickname": "lcx",
+      "username": "lercdsgn",
+      "name": "ali berkay",
+      "surname": "nergiz",
+      "dateOfBirth":"27.12.2000"
+    },
+    "organizations": {
+      "org1": {
+        "creator": 1,
+        "owners": [1],
+        "editors": [1],
+        "projects": [1],
+        "id": 1,
+        "createdAt": "4.12.22.14.40",
+        "isPublic": true,
+        "edits": {
+          "noTitle": {
+            "id": 1,
+            "by": 1,
+            "version": 1.1,
+            "releasedAt": "4.12.22.14.47",
+            "file": "description.txt",
+            "old": "print('Hello World!')",
+            "new": "print('Hello, World!')"
+          }
+        }
+
+      }
+    },
+    "projects": {
+      "abc": {
+        "creator":1,
+        "owners": [1],
+        "organization":1,
+        "id": 1,
+        "files": {"main.py": "print('Hello, World!')"},
+        "createdAt": "4.12.22.14.25",
+        "edits": {
+          "noTitle": {
+            "id": 1,
+            "by": 1,
+            "version": 1.1,
+            "releasedAt": "4.12.22.14.33",
+            "file": "main.py",
+            "old": "print('Hello World!')",
+            "new": "print('Hello, World!')"
+          }
+        }
+
+      }
+    }
+  }
+}
